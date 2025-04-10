@@ -3,7 +3,7 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div>
+        <div className='p-2'>
             <LinkButton text='Voltar' href='/' />
             <h1>
                 Login
