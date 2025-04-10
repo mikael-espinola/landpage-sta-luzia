@@ -50,12 +50,12 @@ const CalendarioFixo = () => {
   };
 
   return (
-    <div className="p-2 bg-emerald-800 ">
+    <div className="p-2 bg-emerald-800 border-b">
       <Title>Calendário Semanal</Title>
       <dl className="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs lg:mx-45 xl:mx-75 2xl:mx-120">
         {Object.entries(programacaoAgrupada).map(([diaSemana, eventos]) => (
           <div key={diaSemana} className="mb-6 flex flex-col items-center">
-            <h3 className="text-xl border rounded-md p-1 w-full text-center font-semibold mb-2">
+            <h3 className="text-xl border rounded-md p-1 w-full text-center font-semibold mb-2 bg-emerald-700 ">
               {diaSemana}
             </h3>
             <ul className="ml-4 flex flex-col gap-5 text-center my-2">
