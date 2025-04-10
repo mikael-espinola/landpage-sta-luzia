@@ -1,7 +1,6 @@
 import CalendarioFixo from "@/components/calendarioFixo/CalendarioFixo";
 import Footer from "@/components/footer/Footer";
 import LinkButton from "@/components/linkButton/LinkButton";
-import Link from "next/link";
 
 export default function Home() {
   return (
