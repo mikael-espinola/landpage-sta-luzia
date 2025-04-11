@@ -4,28 +4,31 @@ import Title from "../title/Title";
 const NoticiaWrapper = () => {
   const noticias = [
     {
-      noticia: "Nova missa marcada para o dia 15 de Outubro 2025",
-      data: "15/10/2025",
-      hora: "10:00",
-      expirar: true,
-    },
-    {
-      noticia: "Retiro de jovens será realizado no próximo fim de semana",
-      data: "22/10/2025",
+      noticia:
+        "Retiro de jovens será realizado no último fim de semana de Abril/2025.",
+      data: "02/04/2025",
       hora: "18:00",
       expirar: true,
     },
     {
-      noticia: "Aula de catequese começa no dia 20 de Outubro 2025",
-      data: "20/10/2025",
-      hora: "14:00",
-      expirar: false,
-    },
-    {
-      noticia: "Grupo de oração terá encontro especial amanhã",
-      data: "13/10/2025",
+      noticia:
+        "Grupo de oração ministrará o Cerco de Jericó durante todo o mês de Abril/2025.",
+      data: "13/04/2025",
       hora: "19:30",
       expirar: true,
+    },
+    {
+      noticia: "Nova missa marcada para o dia 23 de Abril 2025.",
+      data: "15/04/2025",
+      hora: "10:00",
+      expirar: true,
+    },
+    {
+      noticia:
+        "Aula de catequese começa no dia 20 de Maio de 2025. Façam as inscrições de suas crianças.",
+      data: "20/04/2025",
+      hora: "14:00",
+      expirar: false,
     },
   ];
 
