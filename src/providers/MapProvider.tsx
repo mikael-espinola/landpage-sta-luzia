@@ -13,7 +13,7 @@ interface MapProviderProps {
 
 export function MapProvider({ children }: MapProviderProps) {
   const { isLoaded, loadError } = useJsApiLoader({
-    googleMapsApiKey: process.env.GOOGLE_MAP_API_KEY || "",
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY || "",
     libraries,
   });
 
