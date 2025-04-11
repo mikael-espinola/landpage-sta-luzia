@@ -50,7 +50,7 @@ const CalendarioFixo = () => {
   };
 
   return (
-    <div className="p-2 bg-emerald-800 border-b">
+    <div className="p-2 bg-emerald-800 border-b-4">
       <Title>Calendário Semanal</Title>
       <dl className="mt-3 grid grid-cols-1 md:grid-cols-2 gap-4 text-xs lg:mx-45 xl:mx-75 2xl:mx-120">
         {Object.entries(programacaoAgrupada).map(([diaSemana, eventos]) => (
