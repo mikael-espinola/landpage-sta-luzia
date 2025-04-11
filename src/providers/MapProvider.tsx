@@ -1,9 +1,6 @@
-// providers/MapProvider.tsx
-
 import { useJsApiLoader } from "@react-google-maps/api";
 import { ReactNode } from "react";
 
-// Definindo explicitamente o tipo correto para libraries
 const libraries: ("places" | "geometry" | "drawing")[] = [
   "places",
   "geometry",
