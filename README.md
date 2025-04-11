@@ -13,7 +13,6 @@ Este projeto foi desenvolvido como parte de uma ação extensionista da faculdad
 - **Cabeçalho** com nome da igreja, logotipo, versículo bíblico e botão para login de administrador
 - **Programação Semanal** em tabela organizada por dia da semana
 - **Avisos Paroquiais** em destaque para campanhas, horários especiais, inscrições, etc.
-- **Rodapé** com contatos, redes sociais e WhatsApp da secretaria
 - **Área Administrativa** para incluir/excluir notícias e atualizar a programação
 
 ## 📌 Experiência Extensionista
